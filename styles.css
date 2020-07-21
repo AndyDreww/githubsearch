@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&family=Noto+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    /* background: rgb(2,0,36); */
+    /* background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(13,16,37,1) 19%, rgba(36,44,101,1) 100%); */
+    background: rgb(177,91,224);
+    background: linear-gradient(330deg, rgba(177,91,224,1) 0%, rgba(105,52,134,1) 19%, rgba(36,44,101,1) 100%);
+    font-family: 'Noto Serif', serif;
+}
+
+header {
+    background: #fff;
+    width: 50%;
+    padding: 20px 40px;
+    margin: 20px auto;
+    text-align: center;
+    color: #7c7c7c;
+}
+
+h1,
+h2 {
+    font-family: 'Dosis', sans-serif;
+    color: #f6abcc;
+    font-weight: 800;
+}
+
+h1 {
+    position: relative;
+    letter-spacing: 0.05em;
+    padding: 5px;
+    margin: 10px 0;
+    transition: .75s;
+    font-size: 64px;
+}
+
+h1:hover {
+    letter-spacing: 0.1em;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+input[type="text"], 
+button {
+    border:none;
+    background-image:none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;    
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+input[type="text"] {
+    color: #3e3e3e;
+    padding: 10px;
+    border-bottom: 3px #f6abcc solid;
+
+}
+
+button {
+    background-color: #f6abcc;
+    padding: 13px;
+    color: #141844;
+    position: relative;
+    left: -5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #996d80;
+    color: #fff;
+}
+
+main {
+    margin: 30px auto;
+    width: 30%;
+    text-align: center;
+    color: #3e3e3e;
+    background-color: #fff;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+main a {
+    color: #141844;
+    cursor: pointer;
+    font-weight: 800;
+    padding: 5px;
+}
+
+main a:hover {
+    background-color: #f6abcc;
+}
+
+main h2 {
+    margin: 20px 0;
+    font-size: 50px;
+    float: left;
+    width: 50%;
+}
+
+main p {
+    margin: 5px 2px;
+}
+
+.warning {
+    color: #141844;
+    text-transform: uppercase;
+    background: #fff;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    padding: 10px;
+}
+
+#profile {
+    width: 200px;
+    border-radius: 100%;
+    transition: .75s;
+    background: #f6abcc;
+}
+
+#profile::before{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+#bio {
+    clear: both;
+    font-size: 18px;
+    background: #e3e3e3;
+    color: #3e3e3e;
+    text-align: left;
+    padding: 7px;
+    /* width: 80%; */
+    margin: 10px auto;
+}
+
+#location {
+    text-align: left;
+}
